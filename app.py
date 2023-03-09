@@ -24,7 +24,7 @@ def detail(pro):
 
 
 cho = st.file_uploader("Upload Image From Gallery", type=['png','jpg','jpeg','webp'])
-
+img = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMOT2b7n7cTUN90PpRrCRv20ejpAStsNJIxA&usqp=CAU"
 
 if cho is not None:
     img = Image.open(cho)
